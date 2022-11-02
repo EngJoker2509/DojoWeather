@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Dojo Weahter</title>
+</head>
+
+<body>
+    <div id="main">
+        <div id="header">
+            <div id="text">
+                <h1 style="color:white ;">DojoWeather</h1>
+            </div>
+            <div id="cities">
+                <ul onclick="alert('Loading weather report...')">
+                    <li>Burbank</li>
+                    <li>Chicago</li>
+                    <li>Dallas</li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="body">
+            <div id="first-part">
+                <h1>San Jose</h1>
+                <div id="flex-container">
+                    <h3>show temperature in </h3>
+                    <select name="temperature" id="temperature" onchange="Convert()">
+                        <option value="">C</option>
+                        <option value="">F</option>
+                    </select>
+                </div>
+            </div>
+            <hr>
+            <div id="secound-part">
+                <div class="weather">
+                    <div class="marginleft">
+                        <h2>Today</h2>
+                        <img src="some_rain.png" alt="">
+                        <p class="text">some rain</p>
+                        <div id="mesauref">
+                            <p id="large">24</p>
+                            <p id="small">18</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="weather">
+                    <div class="marginleft">
+                        <h2>Today</h2>
+                        <img src="some_sun.png" alt="">
+                        <p class="text">some sun</p>
+                        <div id="mesauref">
+                            <p id="large">27</p>
+                            <p id="small">19</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="weather">
+                    <div class="marginleft">
+                        <h2>Today</h2>
+                        <img src="some_clouds.png" alt="">
+                        <p class="text">some clouds</p>
+                        <div id="mesauref">
+                            <p id="large">21</p>
+                            <p id="small">16</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="weather">
+                    <div class="marginleft">
+                        <h2>Today</h2>
+                        <img src="some_sun.png" alt="">
+                        <p class="text">some sun</p>
+                        <div id="mesauref">
+                            <p id="large">26</p>
+                            <p id="small">21</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="third-part">
+                <img src="cookie.png" alt="">
+                <div>
+                    <h2 style="font-weight:bold ;">Stop! Cookie time</h2>
+                    <p>we user cookies (sadly not the edible ones) to personalize <br> content and ads, to provide
+                        socail
+                        media features and th <br> analyse our traffic . <a href="#">Read more...</a></p>
+                </div>
+                <button type="submit" class="submit" onclick="HideCookie()">I Accept</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

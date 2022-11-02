@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#main {
+    width: auto;
+    height: 630px;
+}
+
+#header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    background-color: cyan;
+}
+
+#text {
+    background-color: cyan;
+}
+
+#cities {
+    background-color: cyan;
+}
+
+#cities li {
+    display: inline-flex;
+    margin-left: 20px;
+    padding: 2px;
+    font-size: large;
+    font-style: italic;
+    color: white;
+    font-weight: bold;
+}
+
+#body {
+    width: 890px;
+    height: 700px;
+    margin-left: 217px;
+}
+
+#first-part {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+
+#flex-container {
+    display: flex;
+}
+
+#flex-container #temperature {
+    border: 2px solid black;
+    margin-left: 7px;
+}
+
+hr {
+    border: 1px solid black;
+    margin-top: 15px;
+}
+
+#secound-part {
+    width: 890px;
+    height: 413px;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.weather {
+    border: 4px solid whitesmoke;
+    width: 150px;
+    height: 300px;
+    background-color: whitesmoke;
+}
+
+.weather img {
+    width: 100px;
+    height: 100px;
+    border: 1px solid white;
+    border-radius: 500px;
+    margin-bottom: 15px;
+    margin-left: -10px;
+}
+
+.marginleft {
+    margin-left: 33px;
+    margin-right: 43px;
+}
+
+#mesauref {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+}
+
+.marginleft h2,
+.text {
+    margin-left: 10px;
+    margin-bottom: 18px;
+}
+
+.text {
+    width: 80px;
+}
+
+#large {
+    color: red;
+}
+
+#small {
+    color: blue;
+}
+
+#third-part {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid black;
+    background-color: whitesmoke;
+    position: fixed;
+    width: 890px;
+}
+
+.submit {
+    border: 2px solid black;
+    box-shadow: 4px 4px 0px 0px black;
+    background-color: blue;
+    padding: 5px;
+    height: fit-content;
+    width: 70px;
+}
